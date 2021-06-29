@@ -1,0 +1,10 @@
+<div>
+    <input [(ngModel)]="color"/>
+    <br>
+    You clicked {{counter}} times.
+    <button (click)="incr()">Click Me</button>
+  </div>
+  
+  <div [ngStyle]="{'color':color}">
+    <app-hero-parent>Loading...</app-hero-parent>
+</div>
